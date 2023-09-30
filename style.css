@@ -1,0 +1,65 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add a background color and set text color */
+body {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #007acc;
+    color: #fff;
+}
+
+/* Style the header image */
+header img {
+    border-radius: 50%; /* Makes the image round */
+    border: 2px solid #fff;
+   
+    
+}
+
+/* Style the main content sections */
+.section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the section headings */
+.section h2 {
+    color: #007acc;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style the list items */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007acc;
+    color: #fff;
+}
+
+/* Add responsive styling for smaller screens */
+@media (max-width: 768px) {
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+}
